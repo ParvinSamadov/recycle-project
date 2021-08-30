@@ -1,0 +1,35 @@
+@import '../components/base';
+
+#homePageFirstPart{
+    background-image: url('../../assets/tools/Rectangle\ 1.jpg');
+    height: 800px;
+    margin-top: -159px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.message-container{
+    display: flex;
+    justify-content: center;
+    p,h1,button{
+        color: $color-white;
+    }
+    p{
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: $base-size*4+2;
+    }
+    h1{
+        font-weight: 700;
+        font-size: $base-size*14;
+        text-transform: uppercase;
+    }
+    button{
+        background-color: $color-main;
+        outline: none;
+        border-radius: $base-size*2;
+        padding: 16px 32px;
+        font-size: $base-size*3+2;
+        border:none ;
+    }
+
+}

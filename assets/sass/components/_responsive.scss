@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px){
+    .p-till-768-btn{
+        padding: $base-size*3 $base-size*6 !important;
+        font-size: $base-size*3;
+    }
+    .font-size_h-till768{
+        font-size: $base-size*7 !important;
+    }
+    .font-size_p-till768{
+        font-size: $base-size*3+1 !important;
+    }
+}

@@ -1,0 +1,57 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Archivo';
+}
+
+
+.logo{
+    width: 65px;
+    height: 53px;
+}
+
+.bg-transparency{
+    background: transparent;
+}
+
+#navbarSupportedContent ul li{
+    list-style-type: disc;
+    margin-left: $base-size*5;
+}
+
+#navbarSupportedContent ul > :first-child{
+    list-style-type: none;
+}
+
+#navbarSupportedContent ul li{
+    color: $color-white;
+}
+
+#navbarSupportedContent ul li a{
+    color: $color-white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+.search-and-language_part{
+    button{
+        background:none ;
+        border: none;
+        outline: none;
+    }
+    select{
+        background: $color-main;
+        border: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        color: $color-white;
+        border-radius: $base-size;
+    }
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }

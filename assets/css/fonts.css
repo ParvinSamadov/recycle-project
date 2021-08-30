@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-ExtraBoldItalic.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-ExtraBold.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-Black.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-BoldItalic.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-Bold.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-BlackItalic.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-Light.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-ExtraLight.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-Italic.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-ExtraLightItalic.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-Medium.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-ThinItalic.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-SemiBold.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-Thin.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-SemiBoldItalic.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-MediumItalic.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-LightItalic.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../assets/fonts/Archivo-Regular.woff2') format('woff2'),
+        url('../../assets/fonts/Archivo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
