@@ -1,74 +1,599 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/fonts.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/vendors/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/vendors/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="./assets/icons/icons.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/vendors/owl.carousel.min.js"></script>
     <title>Ana Səhifə</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="header">
-        <div class="container">
-            <div class="row">
-                <nav class="navbar navbar-expand-lg navbar-light p-5 d-flex justify-content-between">
-                    <a class="navbar-brand" href="#">
-                        <img src="./assets/tools/Frame.svg" class="logo" alt="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="d-none d-md-block" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Ana Səhifə</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Alırıq</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Məhsullarımız</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Cihazlar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Haqqımızda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Əlaqə</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="search-and-language_part d-none d-md-block">
-                        <button>
-                            <img src="./assets/tools/Search.svg" alt="search">
-                        </button>
-                        <select name="languages" class="mx-3 px-2 py-1" id="languages">
-                            <option value="aze">Az</option>
-                        </select>
-                    </div>
-                  </nav>
+      <div class="container">
+        <div class="row">
+          <nav
+            class="
+              navbar navbar-expand-lg navbar-light
+              p-5
+              d-flex
+              justify-content-between
+            "
+          >
+            <a class="navbar-brand" href="#">
+              <img src="./assets/tools/Frame.svg" class="logo" alt="logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="d-none d-lg-block" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Ana Səhifə</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Alırıq</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Məhsullarımız</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cihazlar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Haqqımızda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Əlaqə</a>
+                </li>
+              </ul>
             </div>
+            <div class="search-and-language_part d-none d-lg-block">
+              <button>
+                <img src="./assets/tools/Search.svg" alt="search" />
+              </button>
+              <select name="languages" class="mx-3 px-2 py-1" id="languages">
+                <option value="aze">Az</option>
+              </select>
+            </div>
+          </nav>
         </div>
+      </div>
     </section>
-    <section id="homePageFirstPart">
-            <div class="container h-100 pt-5">
-                <div class="row h-75 d-flex flex-wrap justify-content-center align-items-center">
-                    <div class="contact-button_container d-flex flex-column">
-                        <div class="message-container"><p class="font-size_p-till768">Daha gözəl gələcək üçün</p></div>
-                        <div class="message-container mb-3"><h1 class="font-size_h-till768">Təbiətə atmayaq!</h1></div>
-                        <div class="message-container"><button class="p-till-768-btn">Müraciət et</button></div>
-                    </div>
-                </div>
-                <div class="scroll-button_container d-flex justify-content-center">
-                    <a href="">
-                        <img src="./assets/tools/Group 36209.svg" alt="scrollDown">
-                    </a>
-                </div>
+    <section id="homePageFirstPart" class="pt-5">
+      <div class="container h-100 pt-5 photo-container">
+        <div
+          class="
+            row
+            h-75
+            d-flex
+            flex-wrap
+            justify-content-center
+            align-items-center
+          "
+        >
+          <div class="contact-button_container d-flex flex-column">
+            <div class="message-container">
+              <p class="font-size_p-till768">Daha gözəl gələcək üçün</p>
             </div>
+            <div class="message-container mb-3">
+              <h1 class="font-size_h-till768">Təbiətə atmayaq!</h1>
+            </div>
+            <div class="message-container">
+              <button class="p-till-768-btn">Müraciət et</button>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-button_container d-flex justify-content-center">
+          <a href="">
+            <img src="./assets/tools/Group 36209.svg" alt="scrollDown" />
+          </a>
+        </div>
+      </div>
     </section>
-</body>
+    <div>
+      <div class="footer-of-first_part p-4">
+        <div class="container">
+          <div class="row">
+            <div class="we-buy d-flex justify-content-center">
+              <span class="white-text text-uppercase font-size_h-till768 me-2"
+                >Biz</span
+              >
+              <span
+                class="
+                  primary-color-text
+                  text-uppercase
+                  font-size_h-till768
+                  me-2
+                "
+                >Alırıq</span
+              >
+              <span class="white-text text-uppercase font-size_h-till768"
+                >!</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <div class="arrow-down arrow-bg-dark"></div>
+      </div>
+    </div>
+    <section id="weBuy" class="py-5 px-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4 mb-3">
+            <div
+              class="card w-100 position-relative"
+              style="width: 18rem; border-radius: 8px"
+            >
+              <div class="p-3">
+                <div class="price-container position-absolute">5azn/1kg</div>
+                <img
+                  class="card-img-top card-image_custom w-100"
+                  src="./assets/tools/Rectangle 418.jpg"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="card-body px-3 py-4">
+                <h5 class="card-title font-weight-bold">Ağ vərəqlər (A4)</h5>
+                <p class="card-text mb-4">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Illum maxime fugiat minus unde autem, est, fuga eius alias eum
+                  eveniet voluptate commodi quibusdam nisi iure tempora
+                  voluptatem error pariatur voluptates.
+                </p>
+                <div
+                  class="
+                    d-flex
+                    flex-wrap
+                    justify-content-between
+                    card-button_container
+                  "
+                >
+                  <div>
+                    <a href="#" class="infoButton button-custom-responsive"
+                      >Ətraflı məlumat</a
+                    >
+                  </div>
+                  <div>
+                    <a href="#" class="applyButton button-custom-responsive"
+                      >Müraciət et</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-3">
+            <div
+              class="card w-100 position-relative"
+              style="width: 18rem; border-radius: 8px"
+            >
+              <div class="p-3">
+                <div class="price-container position-absolute">5azn/1kg</div>
+                <img
+                  class="card-img-top card-image_custom w-100"
+                  src="./assets/tools/Rectangle 419.jpg"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="card-body px-3 py-4">
+                <h5 class="card-title font-weight-bold">Ağ vərəqlər (A4)</h5>
+                <p class="card-text mb-4">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Illum maxime fugiat minus unde autem, est, fuga eius alias eum
+                  eveniet voluptate commodi quibusdam nisi iure tempora
+                  voluptatem error pariatur voluptates.
+                </p>
+                <div
+                  class="
+                    d-flex
+                    flex-wrap
+                    justify-content-between
+                    card-button_container
+                  "
+                >
+                  <div>
+                    <a href="#" class="infoButton button-custom-responsive"
+                      >Ətraflı məlumat</a
+                    >
+                  </div>
+                  <div>
+                    <a href="#" class="applyButton button-custom-responsive"
+                      >Müraciət et</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-3">
+            <div
+              class="card w-100 position-relative"
+              style="width: 18rem; border-radius: 8px"
+            >
+              <div class="p-3">
+                <div class="price-container position-absolute">5azn/1kg</div>
+                <img
+                  class="card-img-top card-image_custom w-100"
+                  src="./assets/tools/Rectangle 420.jpg"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="card-body px-3 py-4">
+                <h5 class="card-title font-weight-bold">Ağ vərəqlər (A4)</h5>
+                <p class="card-text mb-4">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Illum maxime fugiat minus unde autem, est, fuga eius alias eum
+                  eveniet voluptate commodi quibusdam nisi iure tempora
+                  voluptatem error pariatur voluptates.
+                </p>
+                <div
+                  class="
+                    d-flex
+                    flex-wrap
+                    justify-content-between
+                    card-button_container
+                  "
+                >
+                  <div>
+                    <a href="#" class="infoButton button-custom-responsive"
+                      >Ətraflı məlumat</a
+                    >
+                  </div>
+                  <div>
+                    <a href="#" class="applyButton button-custom-responsive"
+                      >Müraciət et</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-3">
+            <div
+              class="card w-100 position-relative"
+              style="width: 18rem; border-radius: 8px"
+            >
+              <div class="p-3">
+                <div class="price-container position-absolute">5azn/1kg</div>
+                <img
+                  class="card-img-top card-image_custom w-100"
+                  src="./assets/tools/Rectangle 421.jpg"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="card-body px-3 py-4">
+                <h5 class="card-title font-weight-bold">Ağ vərəqlər (A4)</h5>
+                <p class="card-text mb-4">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Illum maxime fugiat minus unde autem, est, fuga eius alias eum
+                  eveniet voluptate commodi quibusdam nisi iure tempora
+                  voluptatem error pariatur voluptates.
+                </p>
+                <div
+                  class="
+                    d-flex
+                    flex-wrap
+                    justify-content-between
+                    card-button_container
+                  "
+                >
+                  <div>
+                    <a href="#" class="infoButton button-custom-responsive"
+                      >Ətraflı məlumat</a
+                    >
+                  </div>
+                  <div>
+                    <a href="#" class="applyButton button-custom-responsive"
+                      >Müraciət et</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-3">
+            <div
+              class="card w-100 position-relative"
+              style="width: 18rem; border-radius: 8px"
+            >
+              <div class="p-3">
+                <div class="price-container position-absolute">5azn/1kg</div>
+                <img
+                  class="card-img-top card-image_custom w-100"
+                  src="./assets/tools/Rectangle 422.jpg"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="card-body px-3 py-4">
+                <h5 class="card-title font-weight-bold">Ağ vərəqlər (A4)</h5>
+                <p class="card-text mb-4">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Illum maxime fugiat minus unde autem, est, fuga eius alias eum
+                  eveniet voluptate commodi quibusdam nisi iure tempora
+                  voluptatem error pariatur voluptates.
+                </p>
+                <div
+                  class="
+                    d-flex
+                    flex-wrap
+                    justify-content-between
+                    card-button_container
+                  "
+                >
+                  <div>
+                    <a href="#" class="infoButton button-custom-responsive"
+                      >Ətraflı məlumat</a
+                    >
+                  </div>
+                  <div>
+                    <a href="#" class="applyButton button-custom-responsive"
+                      >Müraciət et</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div>
+      <div class="footer-of-second_part p-4">
+        <div class="container">
+          <div class="row">
+            <div class="we-buy-cards d-flex justify-content-center">
+              <span class="text-uppercase font-size_h-till768 me-2">BİZİM</span>
+              <span
+                class="
+                  primary-color-text
+                  text-uppercase
+                  font-size_h-till768
+                  me-2
+                "
+                >MƏHSULLARIMIZ</span
+              >
+              <span class="text-uppercase font-size_h-till768">.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-flex justify-content-center bg-dark">
+        <div class="arrow-down arrow-bg-white"></div>
+      </div>
+    </div>
+    <section id="products" class="p-5 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="owl-carousel owl-theme">
+            <div class="card bg-dark h-100">
+              <img
+                class="card-img-top customize-card_img"
+                src="./assets/tools/Rectangle 422.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body text-light d-flex flex-wrap">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda nulla ratione quasi exercitationem ipsam eum totam
+                  itaque nam distinctio. Qui modi minus excepturi quia facere
+                  dolor odit, nulla eos dolores.
+                </p>
+                <div class="align-self-end d-flex flex-wrap align-items-center">
+                  <a href="#" class="btn btn-primary me-5 me-md-2 mb-3 mb-lg-0"
+                    >Müraciət et</a
+                  >
+                  <span class="text-light ms-1">5 azn / 1 kg</span>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark h-100">
+              <img
+                class="card-img-top customize-card_img"
+                src="./assets/tools/Rectangle 422.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body text-light d-flex flex-wrap">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Necessitatibus, nisi impedit vitae enim quia temporibus
+                  tempore, praesentium autem repudiandae ipsum molestias sunt
+                  cumque explicabo rem dolorum ad quo aspernatur maxime?
+                </p>
+                <div class="align-self-end d-flex flex-wrap align-items-center">
+                  <a href="#" class="btn btn-primary me-5 me-md-2 mb-3 mb-lg-0"
+                    >Müraciət et</a
+                  >
+                  <span class="text-light ms-1">5 azn / 1 kg</span>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark h-100">
+              <img
+                class="card-img-top customize-card_img"
+                src="./assets/tools/Rectangle 422.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body text-light d-flex flex-wrap">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                  porro accusamus eum voluptates nam? Dolor molestiae fugit,
+                  doloremque consectetur est aliquid. Eum asperiores delectus
+                  modi? Magni amet ducimus architecto minima?
+                </p>
+                <div class="align-self-end d-flex flex-wrap align-items-center">
+                  <a href="#" class="btn btn-primary me-5 me-md-2 mb-3 mb-lg-0"
+                    >Müraciət et</a
+                  >
+                  <span class="text-light ms-1">5 azn / 1 kg</span>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark h-100">
+              <img
+                class="card-img-top customize-card_img"
+                src="./assets/tools/Rectangle 422.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body text-light d-flex flex-wrap">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="align-self-end d-flex flex-wrap align-items-center">
+                  <a href="#" class="btn btn-primary me-5 me-md-2 mb-3 mb-lg-0"
+                    >Müraciət et</a
+                  >
+                  <span class="text-light ms-1">5 azn / 1 kg</span>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark h-100">
+              <img
+                class="card-img-top customize-card_img"
+                src="./assets/tools/Rectangle 422.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body text-light d-flex flex-wrap">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="align-self-end d-flex flex-wrap align-items-center">
+                  <a href="#" class="btn btn-primary me-5 me-md-2 mb-3 mb-lg-0"
+                    >Müraciət et</a
+                  >
+                  <span class="text-light ms-1">5 azn / 1 kg</span>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-dark h-100">
+              <img
+                class="card-img-top customize-card_img"
+                src="./assets/tools/Rectangle 422.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body text-light d-flex flex-wrap">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="align-self-end d-flex flex-wrap align-items-center">
+                  <a href="#" class="btn btn-primary me-5 me-md-2 mb-3 mb-lg-0"
+                    >Müraciət et</a
+                  >
+                  <span class="text-light ms-1">5 azn / 1 kg</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div>
+      <div class="footer-of-first_part p-4">
+        <div class="container">
+          <div class="row">
+            <div class="we-buy d-flex justify-content-center">
+              <span class="white-text text-uppercase font-size_h-till768 me-2"
+                >Haqqımızda</span
+              >
+              <span
+                class="
+                  primary-color-text
+                  text-uppercase
+                  font-size_h-till768
+                  me-2
+                "
+                >məlumat</span
+              >
+              <span class="white-text text-uppercase font-size_h-till768"
+                >.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <div class="arrow-down arrow-bg-dark"></div>
+      </div>
+    </div>
+    <section id="aboutUs p-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12 col-lg-6 p-3">
+            <div class="message-and-photo_container position-relative">
+              <img
+                src="./assets/tools/Rectangle 430.jpg"
+                class="rounded w-75"
+                style="height: 260px"
+              />
+              <div class="message-container_about position-absolute">
+                <div class="ps-4"><div class="arrow-up"></div></div>
+                <div class="message rounded text-light p-3">
+                  Tortor, nibh orci, sed in sed sed dictum tristique. Turpis
+                  laoreet euismod nisi viverra. Pretium id massa adipiscing
+                  pellentesque euismod ut pharetra.
+                  <h3>- Anton Çexov</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6"></div>
+        </div>
+      </div>
+    </section>
+    <div>
+      <div class="footer-of-second_part p-4">
+        <div class="container">
+          <div class="row">
+            <div class="we-buy-cards d-flex justify-content-center">
+              <span class="text-uppercase font-size_h-till768 me-2"
+                >BİZİMlə</span
+              >
+              <span
+                class="
+                  primary-color-text
+                  text-uppercase
+                  font-size_h-till768
+                  me-2
+                "
+                >əlaqə</span
+              >
+              <span class="text-uppercase font-size_h-till768">.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-flex justify-content-center bg-dark">
+        <div class="arrow-down arrow-bg-white"></div>
+      </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
